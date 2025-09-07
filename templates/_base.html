@@ -24,6 +24,7 @@
 
         #middle {
             background-color: rgba(157, 245, 248, 0.98);
+            margin: 0 auto 0;
             {% block style %} {% endblock style %}
         }
 
@@ -37,11 +38,11 @@
         <div id="header">
             <table style="height: 150px" cellpadding="20" cellspacing="50" align="center"  width="350" >
                 <tr style="background-color: #29b0ec">
-                    <td><a href="{% url 'blog home' %}" title=home"">Home</a></td>
+                    <td><a href="{% url 'home' %}" title=home"">Home</a></td>
                     <td><a href="{% url 'blog home' %}" title="blog home">Blogs</a></td>
                     <td><a href="{% url 'blog home' %}" title="product home">Products</a></td>
-                    <td><a href="{% url 'blog home' %}" title="about">About us</a></td>
-                    <td><a href="{% url 'blog home' %}" title="contact">Contact us</a></td>
+                    <td><a href="{% url 'about' %}" title="about">About us</a></td>
+                    <td><a href="{% url 'contact' %}" title="contact">Contact us</a></td>
                 </tr>
             </table>
 
@@ -49,7 +50,9 @@
         <div id="middle">{% block middle %} {% endblock middle %}</div>
         <div id="footer">
             <h3>Developed at 2025 by Mahdi Riahi</h3>
-            <a href="https://github.com/mahdi-riahi" title="github profile" target="_blank">GitHub Profile</a>
+            <a href="https://github.com/mahdi-riahi" title="github profile" target="_blank">GitHub Profile</a><br>
+            <p style="color: #006b1b"></p>
+            {{ datetime_now }}
         </div>
     </div>
 </body>

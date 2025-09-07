@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9776384e-4e8c-4134-8390-0d11a9973d29" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +15,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="App blog started, added to settings.py, &#10;config/urls.py edited and new url path ('blog/') added, blog/urls.py created and edited and a blog-home-page url was made,&#10;in blog/views.py a home_page_view added and used render() for get templates, &#10;a template added using template interhence.">
+      <created>1757246708541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757246708541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -39,6 +59,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Django project started: added config/ and manage.py&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Django project started: added config/ and manage.py&quot;" />
+    <MESSAGE value="App blog started, added to settings.py, &#10;config/urls.py edited and new url path ('blog/') added, blog/urls.py created and edited and a blog-home-page url was made,&#10;in blog/views.py a home_page_view added and used render() for get templates, &#10;a template added using template interhence." />
+    <option name="LAST_COMMIT_MESSAGE" value="App blog started, added to settings.py, &#10;config/urls.py edited and new url path ('blog/') added, blog/urls.py created and edited and a blog-home-page url was made,&#10;in blog/views.py a home_page_view added and used render() for get templates, &#10;a template added using template interhence." />
   </component>
 </project>
