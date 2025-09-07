@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+
+{% block title %}{{blog.title}}{% endblock title %}
+
+{% block style %}
+{% endblock style %}
+
+{% block middle %}
+<h1>{{blog.title}}</h1>
+<h4>Author: {{blog.author}}</h4>
+<p>Created at: {{blog.created_at}}</p><br>
+<p>{{blog.content}}</p>
+{% endblock middle %}
